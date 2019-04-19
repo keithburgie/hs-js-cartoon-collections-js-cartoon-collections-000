@@ -31,9 +31,13 @@ var soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"];
 var ingredients = ["garlic", "rosemary", "bread"];
 
 function findTheCheese (foods) {
+  const cheeses = ["chedder", "gouda", "camembert"];
+  
+  let count = foods.length;
   for (let i = 0; i < foods.length; i++) {
-    if (foods[i] === "gouda") {
+    if (foods[i] === "cheddar" || "gouda" || "camembert") {
       console.log(foods[i]);
+      return;
     }
   }
   console.log ("no cheese!");
