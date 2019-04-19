@@ -33,7 +33,7 @@ var ingredients = ["garlic", "rosemary", "bread"];
 function findTheCheese (foods) {
   const cheeses = ["cheddar", "gouda", "camembert"];
   for (let i = 0; i < foods.length; i++) {
-    if (foods[i]  {
+    if (foods[i] includes {
       console.log(foods[i]);
       return;
     }
