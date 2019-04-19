@@ -6,9 +6,6 @@ function dwarfRollCall(dwarves) {
   return `${numberedList.join(' ')} `;
 }
 
-
-//let m = ["earth", "wind", "fire", "water", "heart"];
-
 function summonCaptainPlanet(planeteerCalls){
   let elements = [];
   for (let i = 0; i < planeteerCalls.length; i++) {
@@ -16,8 +13,6 @@ function summonCaptainPlanet(planeteerCalls){
   }
   return elements;
 }
-
-//summonCaptainPlanet(m);
 
 
 function longPlaneteerCalls(words) {
