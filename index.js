@@ -26,20 +26,14 @@ function longPlaneteerCalls(words) {
 }
 
 
-var snacks = ["crackers", "gouda", "thyme"];
-var soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"];
-var ingredients = ["garlic", "rosemary", "bread"];
-
 function findTheCheese (foods) {
   const cheeses = ["cheddar", "gouda", "camembert"];
   
   for (let i = 0; i < foods.length; i++) {
     if (cheeses.indexOf(foods[i]) > -1) {
-      console.log(foods[i]);
-      return;
+      return foods[i];
     }
   }
-  console.log ("no cheese!");
+  return "no cheese!";
   
 }
-findTheCheese(ingredients);
