@@ -28,8 +28,6 @@ function longPlaneteerCalls(words) {
     console.log(`words = ${words[i]}`);
     if (words[i].length > 4) {
       return true;
-    } else {
-      return false;
     }
   }
 }
