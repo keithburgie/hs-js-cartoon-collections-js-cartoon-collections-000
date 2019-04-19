@@ -14,7 +14,7 @@ function summonCaptainPlanet(planeteerCalls){
   return elements;
 }
 
-const eteerCalls = ["earth", "wind", "fire", "water", "heart"]
+var longCalls = ["earth", "wind", "fire", "water", "heart"];
 function longPlaneteerCalls(words) {
   var array = [];
   for (let i = 0; i < words; i++) {
