@@ -16,7 +16,13 @@ function summonCaptainPlanet(planeteerCalls){
 
 const planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 function longPlaneteerCalls(words) {
-  for ()
+  for (let i = 0; i < words; i++) {
+    if (words[i].length > 4) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 longPlaneteerCalls(planeteerCalls);
 
