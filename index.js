@@ -26,6 +26,8 @@ function longPlaneteerCalls(words) {
 }
 
 
+var snacks = ["crackers", "gouda", "thyme"];
+
 function findTheCheese (foods) {
   const cheeses = ["chedder", "gouda", "camembert"];
 }
