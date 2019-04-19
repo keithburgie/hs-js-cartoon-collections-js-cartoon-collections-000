@@ -18,7 +18,7 @@ var longCalls = ["earth", "wind", "fire", "water", "heart"];
 var shortCalls = ["wind", "fire"];
 function longPlaneteerCalls(words) {
   console.log(`words = ${words}`);
-  var array = [...words];
+  var array = [];
   console.log(`array = ${array}`);
   for (let i = 0; i < words; i++) {
     console.log(`words = ${words[i]}`);
