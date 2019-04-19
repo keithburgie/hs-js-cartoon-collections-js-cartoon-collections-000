@@ -33,7 +33,7 @@ function longPlaneteerCalls(words) {
   }
   return false;
 }
-longPlaneteerCalls(shortCalls);
+longPlaneteerCalls(longCalls);
 
 
 function findTheCheese (foods) {
