@@ -42,4 +42,4 @@ function findTheCheese (foods) {
   console.log ("no cheese!");
   
 }
-findTheCheese(soup);
+findTheCheese(ingredients);
