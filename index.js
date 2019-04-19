@@ -34,7 +34,7 @@ function longPlaneteerCalls(words) {
   console.log(false)
   return false;
 }
-longPlaneteerCalls(longCalls);
+longPlaneteerCalls(shortCalls);
 
 
 function findTheCheese (foods) {
