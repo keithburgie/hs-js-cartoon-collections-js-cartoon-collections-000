@@ -15,8 +15,9 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 var longCalls = ["earth", "wind", "fire", "water", "heart"];
+var shortCalls = ["wind", "fire"];
 function longPlaneteerCalls(words) {
-  var array = [];
+  console.log(`words = ${words}`);
   for (let i = 0; i < words; i++) {
     if (words[i].length > 4) {
       return true;
@@ -25,7 +26,7 @@ function longPlaneteerCalls(words) {
     }
   }
 }
-longPlaneteerCalls(eteerCalls);
+longPlaneteerCalls(longCalls);
 
 
 function findTheCheese (foods) {
