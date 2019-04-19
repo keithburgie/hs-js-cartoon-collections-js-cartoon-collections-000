@@ -27,9 +27,11 @@ function longPlaneteerCalls(words) {
   for (let i = 0; i < words.length; i++) {
     console.log(`words = ${words[i]}`);
     if (words[i].length > 4) {
+      console.log(true)
       return true;
     }
   }
+  return false;
 }
 longPlaneteerCalls(shortCalls);
 
