@@ -32,9 +32,8 @@ var ingredients = ["garlic", "rosemary", "bread"];
 
 function findTheCheese (foods) {
   for (let i = 0; i < foods.length; i++) {
-    if (foods[i] === "cheddar" || "gouda" || "camembert") {
+    if (foods[i] === "gouda") {
       console.log(foods[i]);
-      
     }
   }
   console.log ("no cheese!");
