@@ -33,11 +33,8 @@ var ingredients = ["garlic", "rosemary", "bread"];
 function findTheCheese (foods) {
   const cheeses = ["cheddar", "gouda", "camembert"];
   
-  
   for (let i = 0; i < foods.length; i++) {
-    //var myarr = ["I", "like", "turtles"];
-    //var arraycontainsturtles = (myarr.indexOf("turtles") > -1);
-    if (cheeses.indexOf(foods[i]) === "cheddar" || "gouda" || "camembert") {
+    if (cheeses.indexOf(foods[i]) > -1) {
       console.log(foods[i]);
       return;
     }
