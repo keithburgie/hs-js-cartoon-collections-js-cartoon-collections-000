@@ -14,9 +14,11 @@ function summonCaptainPlanet(planeteerCalls){
   return elements;
 }
 
-
+const planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 function longPlaneteerCalls(words) {
+  
 }
+longPlaneteerCalls(planeteerCalls);
 
 
 function findTheCheese (foods) {
