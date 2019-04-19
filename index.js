@@ -14,13 +14,17 @@ function summonCaptainPlanet(planeteerCalls){
   return elements;
 }
 
+var myStringArray = ["Hello","World"];
+    var arrayLength = myStringArray.length;
+    for (var i = 0; i < arrayLength; i++) {
+        console.log(myStringArray[i]);
+        //Do something
+    }
+
 var longCalls = ["earth", "wind", "fire", "water", "heart"];
 var shortCalls = ["wind", "fire"];
 function longPlaneteerCalls(words) {
-  console.log(`words = ${words}`);
-  var array = [];
-  console.log(`array = ${array}`);
-  for (let i = 0; i < words; i++) {
+  for (let i = 0; i < words.length; i++) {
     console.log(`words = ${words[i]}`);
     if (words[i].length > 4) {
       return true;
