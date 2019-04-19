@@ -31,6 +31,7 @@ function longPlaneteerCalls(words) {
       return true;
     }
   }
+  console.log(false)
   return false;
 }
 longPlaneteerCalls(longCalls);
