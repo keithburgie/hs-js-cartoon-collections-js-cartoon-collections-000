@@ -19,6 +19,7 @@ var shortCalls = ["wind", "fire"];
 function longPlaneteerCalls(words) {
   console.log(`words = ${words}`);
   for (let i = 0; i < words; i++) {
+    console.log(`words = ${words[i]}`);
     if (words[i].length > 4) {
       return true;
     } else {
